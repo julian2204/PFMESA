@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
 header .container > .navbar-brand {
   font-family: 'Berkshire Swash', cursive;
   font-size: 30px;
   color: white; }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 main .carousel {
   max-width: 800px; }
 

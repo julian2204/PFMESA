@@ -1,8 +1,9 @@
 @import "./variables";
-@import "./reset";
+@import "./mixin";
 @import "./header";
 
-
+*{
+    @include reset;}
 main{
     .carousel{
         max-width: 800px;
@@ -25,7 +26,4 @@ main{
 
             }
         }
-    }
-.bg-white{
-    height: 10vh;
-}
+    }    
