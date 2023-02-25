@@ -16,12 +16,11 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-
     <title>Comparative Shop</title>
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg" data-bs-theme="dark">
             <div class="container ">
               <a class="navbar-brand" href="./index.html" >
                 &#128722 Comparative Shop
@@ -29,10 +28,10 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse justify-content-around bg-dark" data-bs-theme="dark" id="navbarSupportedContent">
                 <form class="d-flex" role="search" id="buscador">
-                    <input class="form-control px-5 me-2" type="search" placeholder="Buscador de productos" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <input class="form-control text-center px-3 me-2" type="search" placeholder="Buscador de productos " aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
                 </form>
                 <ul class="navbar-nav ">
                   <li class="nav-item text-center">
@@ -50,10 +49,11 @@
                 </ul>
               </div>
             </div>
-          </nav>      
+          </nav>  
+
     </header>
     <main class="bg-body-tertiary">
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center p-3">
             <div id="carousel-ofertas" class="carousel carousel-dark slide">
                 <div div class="carousel-inner">
                     <div class="carousel-item active">
@@ -76,87 +76,101 @@
                 </button>
             </div>
         </div>
-        <section class="container">
-            <h2 class="h2">
+        <section class="container pb-3">
+            <h2 class="h2 p-3">
                 Lo mas buscado
             </h2>
-            <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <img src="./assets/images/celular.webp" class="img-fluid" alt="celular">
+                  <div class="card">
+                    <img src="./assets/images/celular.webp" class="card-img-top" alt="Celular">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Celular Tecno Camon 18p</h5>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/mouse.webp" class="img-fluid" alt="mouse">
+                  <div class="card">
+                    <img src="./assets/images/mouse.webp" class="card-img-top" alt="Mouse">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Mouse Logitech G Pro Gaming Fps</h5>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/musica.webp" class="img-fluid" alt="echo">
+                  <div class="card">
+                    <img src="./assets/images/musica.webp" class="card-img-top" alt="Echo">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Amazon Echo Dot 4th Gen</h5>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p >Celular Tecno Camon 18p</p>                    
-                </div>
-                <div class="col">
-                    <p>Mouse Logitech G Pro Gaming Fps</p>                   
-                </div>
-                <div class="col">
-                    <p>Amazon Echo Dot 4th Gen</p>                    
-                </div>
-            </div>
-            <h2 class="h2">
+              </div> 
+            <h2 class="h2 p-3">
                 Ofertas
             </h2>
-            <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <img src="./assets/images/base.webp" class="img-fluid" alt="base">
+                  <div class="card">
+                    <img src="./assets/images/base.webp" class="card-img-top" alt="Base">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Base Refrigerante A2 Cooling Pad 2</h5>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/zapato.webp" class="img-fluid" alt="zapato">
+                  <div class="card">
+                    <img src="./assets/images/zapato.webp" class="card-img-top" alt="Zapato">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Botín Merrell Hombre Marróns</h5>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/silla.webp" class="img-fluid" alt="silla">
+                  <div class="card">
+                    <img src="./assets/images/silla.webp" class="card-img-top" alt="Sillas">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Kit De 4 Sillas Eames Moderna</h5>
+                    </div>
+                  </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <p>Base Refrigerante A2 Cooling Pad 2</p>                    
-                </div>
-                <div class="col">
-                    <p>Botín Merrell Hombre Marróns</p>                   
-                </div>
-                <div class="col">
-                    <p>Kit De 4 Sillas Eames Moderna</p>                    
-                </div>
-            </div>            <h2 class="h2">
+            <h2 class="h2 p-3">
                 Productos destacados para ti
             </h2>
-            <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <img src="./assets/images/google.webp" class="img-fluid" alt="celular">
+                  <div class="card">
+                    <img src="./assets/images/google.webp" class="card-img-top" alt="Google Chromecast">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Google Chromecast 4 Generacion</h5>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/proteina.webp" class="img-fluid" alt="celular">
+                  <div class="card">
+                    <img src="./assets/images/proteina.webp" class="card-img-top" alt="Proteina">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Proteína Gold Isolate 5 Lb </h5>
+                    </div>
+                  </div>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/gatos.webp" class="img-fluid" alt="celular">
+                  <div class="card">
+                    <img src="./assets/images/gatos.webp" class="card-img-top" alt="Snack para gato">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Temptations Snack Para Gatos Adultos</h5>
+                    </div>
+                  </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <p>Google Chromecast 4 Generacion</p>                    
-                </div>
-                <div class="col">
-                    <p>Gold Standard Isolate 5 Lb Proteína Limpia</p>                   
-                </div>
-                <div class="col">
-                    <p>Temptations Snack Para Gatos Adultos</p>                    
-                </div>
-            </div>
+
         </section>        
 
       
     </main>
-    <footer>
-        <div class="container d-flex align-items-center justify-content-center mt-5 p-3">
+    <footer >
+        <div class="container d-flex align-items-center justify-content-center ">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <a href="https://www.facebook.com/" target="_blank">

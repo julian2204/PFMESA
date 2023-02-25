@@ -4,23 +4,16 @@
   margin: 0;
   box-sizing: border-box; }
 
-header {
-  background-color: #9bfab0; }
-  header .container > .navbar-brand {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 30px; }
+header .container > .navbar-brand {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px;
+  color: white; }
 
 main .carousel {
   max-width: 800px; }
 
-main .container .row .col .img-fluid {
-  border-radius: 0.5rem; }
-  main .container .row .col .img-fluid:hover {
-    transform: scale(1.05); }
+main .container .row .col .card:hover {
+  transform: scale(1.05); }
 
-main .container .row .col p {
-  text-align: center;
-  font-size: 1rem; }
-
-main div div p {
+div div p {
   font-size: 1.5rem; }

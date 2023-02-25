@@ -10,16 +10,11 @@ main{
     .container{
         .row{
             .col{
-                .img-fluid{
-                    border-radius: 0.5rem;
+                .card{
                     &:hover{
                         transform: scale(1.05);
                     }
-                }                
-                p{
-                    text-align: center;
-                    font-size: 1rem;
-                
+                }                                
                 }
             }
         }
@@ -31,4 +26,6 @@ main{
             }
         }
     }
+.bg-white{
+    height: 10vh;
 }
